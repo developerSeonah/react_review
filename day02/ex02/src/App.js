@@ -1,9 +1,10 @@
 import './App.css';
-import Containers from './props/Containers';
+
+import Count from './state/basic/Count';
 
 function App() {
   return (
-    <Containers/>
+    <Count/>
   );
 }
 

@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Foos = () => {
+const Foos = ({foods}) => {
+    const {id, name} = foods; 
     return (
-        <div>
-            
-        </div>
+       <div>
+            {id}, {name}
+       </div>
     );
 };
 
